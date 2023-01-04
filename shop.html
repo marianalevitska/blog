@@ -11,8 +11,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="modern-normalize.css" />
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
-    <link rel="stylesheet" href="css/main.min.css">
-    
+    <link rel="stylesheet" href="./src/sass/main.css">    
 </head>
 <body>
     <header>
@@ -21,31 +20,31 @@
                 <nav class="header__navigation">
                     <ul class="header-list list">
                         <li class="header-list__item">
-                            <a href="index.html" class="header-list__link link current">Home</a>
+                            <a href="index.html" class="header-list__link link ">Home</a>
                         </li>
                         <li class="header-list__item">
                             <a href="blog.html" class="header-list__link link">Blog</a>
                         </li>
                         <li class="header-list__item">
-                            <a href="shop.html" class="header-list__link link">Shop</a>
+                            <a href="shop.html" class="header-list__link link current">Shop</a>
                         </li>
                     </ul>
                 </nav> 
                 <div class="header__connect">
-            <a href="mailto:info@devstudio.com" class="header__contacts link">
+            <a href="#" class="header__contacts link" id="user-login">
                 <svg class="header__social-icon" width="20px" height="16px">
                     <use href="./images/icons.svg#icon-mail"></use>
     
                 </svg>
-                info@devstudio.com</a>
+                Log In</a>
        
-            <a href="tel:+38 096 111 11 11" class="header__contacts link">
+            <a href="#" class="header__contacts link hidden-link" id="user-logout">
                 <svg class="header__social-icon" 
                 width="14px" 
                 height="20px">
                     <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
-                +38 096 111 11 11</a>
+                Log Out</a>
         </div>
         <div class="open-menu">
             <button type="button" class="open-menu-btn">
