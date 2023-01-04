@@ -11,7 +11,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="modern-normalize.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="css/styles.css"/> -->
-   <link rel="stylesheet" href="./src/sass/main.css">
+   <link rel="stylesheet" href="./sass/main.css">
 </head>
 <body>
     <header>
@@ -88,7 +88,25 @@
             </div>
         </div>
     </header>
-    <main>
+
+        <!-- <section class="first">
+            <div class="first-container">
+                <p class="first-text">Made With Nature</p>
+                <h1>Welcome to the world of nature and organic.</h1>
+    
+                <div class="first-button">
+                    <a href="#">Explore Now</a>
+                </div>
+            </div>
+        </section>
+     -->
+     <section class="main-title">
+        <div class="container main-title__section">
+        <h1>Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="main-title__btn" data-modal-open>Заказать услугу</button>
+    </div>
+    </section>
+        <main>
         <div>
             <div class="first-middle">
                 <div class="first-div">
@@ -107,71 +125,30 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container footer__full">
-            <div class="footer-top">
-            <div class="container-1 footer__adress">
-                <a href="" class="footer__logo link logo-span--color-light"><span class="web">Web</span>Studio</a>
-                <address>
-                    <ul class="footer-contact-list list">
-                        <li class="footer-contact-list__item"><a
-                                href="https://www.google.com/maps?q=%D0%B3.+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%BF%D1%80-%D1%82+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiX25f0-PTzAhWwhv0HHc4ZDNgQ_AUoAXoECAEQAw"
-                                class="footer-contact-list__link link" target="_blank" rel="noreferrer noopener">Lorem ipsum dolor sit amet consectetur adipisicing elit</a>
-                        </li>
-                        <li class="footer-contact-list__item item"><a href="mailto:info@devstudio.com"
-                                class="footer-contact-list__tel link">info@example.com</a>
-                        </li>
-                        <li class="footer-contact-list__item item-1"><a href="tel:+38 096 111 11 11"
-                                class="footer-contact-list__tel link">+38 099 111 11 11</a>
-                        </li>
-                    </ul>
-                </address>
-            </div>
-            <div class="container-1 footer__social">
-                <h4 class="h4">Join me</h4>
-                <ul class="footer-social list">
-                    <li class="footer-social__item ">
-                        <a href="" class="footer-social__link link">
-                            <svg class="footer-social__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social__item ">
-                        <a href="" class="footer-social__link link">
-                            <svg class="footer-social__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-twiter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social__item ">
-                        <a href="" class="footer-social__link link">
-                            <svg class="footer-social__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social__item">
-                        <a href="" class="footer-social__link link">
-                            <svg class="footer-social__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-            <div class="container-2 footer__subscribe subscribe">
-                <h4 class="h4">Follow</h4>
-                <form name="subscribe-form" class="subscribe-form" autocomplete="on" novalidate>
-                    <input type="email" name="email" placeholder="E-mail" class="subscribe-form__input" />
-                    <button type="submit" class="subscribe-form__btn">Follow
-                        <svg class="subscribe-form__icon" width="24px" height="24px">
-                            <use href="./images/icons.svg#icon-send"></use>
-                        </svg>
-                    </button>
-                </form>
-            </div>
+        <div class="container">
+          <div class="footer--wrap">
+            <p class="footer__text">
+              <span>© 2023 | All Rights Reserved |</span> Developed
+              <!-- <svg
+                class="footer__icon"
+                width="14"
+                height="13"
+              >
+                <use href="./src/images/icons.svg#icon-like"></use>
+       
+                </svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                width="16"
+                height="15"
+                class="footer__icon">
+                    <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6a8 8 0 0 0 11.955 6.956C21.474 18.03 17.2 22 12 22 6.477 22 2 17.523 2 12c0-5.2 3.97-9.474 9.044-9.955A7.963 7.963 0 0 0 10 6zm-6 6a8 8 0 0 0 8 8 8.006 8.006 0 0 0 6.957-4.045c-.316.03-.636.045-.957.045-5.523 0-10-4.477-10-10 0-.321.015-.64.045-.957A8.006 8.006 0 0 0 4 12zm14.164-9.709L19 2.5v1l-.836.209a2 2 0 0 0-1.455 1.455L16.5 6h-1l-.209-.836a2 2 0 0 0-1.455-1.455L13 3.5v-1l.836-.209A2 2 0 0 0 15.29.836L15.5 0h1l.209.836a2 2 0 0 0 1.455 1.455zm5 5L24 7.5v1l-.836.209a2 2 0 0 0-1.455 1.455L21.5 11h-1l-.209-.836a2 2 0 0 0-1.455-1.455L18 8.5v-1l.836-.209a2 2 0 0 0 1.455-1.455L20.5 5h1l.209.836a2 2 0 0 0 1.455 1.455z" fill="#000"/>
+                </svg>
+                by <button class="footer__btn">Levitska Prod.</button>
+            </p>
+          </div>
         </div>
-    </footer>
+      </footer>
+      
 </body>
 </html>
