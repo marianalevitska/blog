@@ -52,7 +52,7 @@
   bottom: -1px;
 }
 .header-list__link:hover, .header-list__link:focus {
-  color: var(--bg-color);
+  color: #EAFDFA;
 }
 .header-list {
   display: flex;
@@ -220,7 +220,7 @@
 }
 
 .logo-span--color-dark {
-  color: var(--first-text-color);
+  color: var(--third-text-color);
 }
 
 .web {
