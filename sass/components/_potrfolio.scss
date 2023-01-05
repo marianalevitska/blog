@@ -58,8 +58,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(154, 144, 35, 0.12), 0px 4px 4px rgba(183, 158, 46, 0.06),
+      1px 4px 6px rgba(140, 140, 42, 0.16);
   }
 
   &:hover .photo-list__item__top {
@@ -92,7 +92,7 @@ button:focus {
   color: #ffffff;
   line-height: 1.56;
   padding: 63px 24px;
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: rgba(117, 114, 55, 0.303);
   transform: translateY(100%);
   transition: transform 200ms;
 }
@@ -100,6 +100,7 @@ button:focus {
 .photo-list__text {
   padding: 20px 24px 20px 24px;
   width: 450px;
+  background-color:rgba(211, 197, 153, 0.303);
 
   @media screen and (min-width: 768px) {
     width: 354px;
@@ -114,14 +115,14 @@ button:focus {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--first-text-color);
+  color: rgb(255, 196, 0);
 }
 
 .photo-list__pre-title {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: rgb(255, 254, 249);
   margin-top: 4px;
 }
 .portfolio-img {

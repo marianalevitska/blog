@@ -115,11 +115,11 @@ button {
   margin-right: 8px;
   transition: color 200ms linear, background-color 200ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  color: var(--third-text-color);
   &:hover,
   &:active,
   &:focus {
-    color: var(--third-text-color);
+    color: var(--first-text-color);
   }
 }
 // footer btn
