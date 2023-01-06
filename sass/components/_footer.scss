@@ -1,8 +1,12 @@
 .footer {
+  position: sticky;
+  bottom: 5px;
+  background-color: var(--primary-background-color);
   &--wrap {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
+
   }
 
   &__text {

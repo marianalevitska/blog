@@ -13,12 +13,12 @@
 
 .blog-post-title{
     font-size: clamp(3rem, 5vw, 6rem); 
-  
+    margin-bottom: 30px;
     color: #fff;
 }
 
 .blog-post-data .article-data{
-    margin-bottom: 2.5rem;
+    margin-bottom: 30px;
 }
 
 .blog-post-data img{
@@ -28,6 +28,8 @@
 }
 
 .blog-post-container .container{
+    margin-top: 30px;
+    margin-bottom: 30px;
     max-width: 90rem;
     padding: 0;
     display: flex;
@@ -36,8 +38,8 @@
 }
 
 .quote{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     background-color: var(--secondary-background-color);
     padding: 2.5rem;
 }
