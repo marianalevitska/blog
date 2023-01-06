@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsFlash | Post</title>
+    <title>Post</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
     <!-- Remix icons -->
@@ -17,17 +17,17 @@
     <!-- Header -->
     <header>
         <div class="container header__container">
-            <a href="" class="header__logo link logo-span--color-dark"><span class="web">Sport</span>Blog</a>
+            <a href="index.html" class="header__logo link logo-span--color-dark"><span class="web">Sport</span>Blog</a>
                 <nav class="header__navigation">
                     <ul class="header-list list">
                         <li class="header-list__item">
-                            <a href="index.html" class="header-list__link link current">Home</a>
+                            <a href="blog.html" class="header-list__link link ">Блог</a>
                         </li>
                         <li class="header-list__item">
-                            <a href="blog.html" class="header-list__link link ">Blog</a>
+                            <a href="shop.html" class="header-list__link link">Магазин</a>
                         </li>
                         <li class="header-list__item">
-                            <a href="shop.html" class="header-list__link link">Shop</a>
+                            <a href="services.html" class="header-list__link link">Послуги</a>
                         </li>
                     </ul>
                 </nav> 
@@ -37,7 +37,7 @@
                     <use href="./images/icons.svg#icon-mail"></use>
     
                 </svg>
-                Log In</a>
+                Увійти</a>
        
             <a href="#" class="header__contacts link hidden-link" id="user-logout">
                 <svg class="header__social-icon" 
@@ -45,7 +45,8 @@
                 height="20px">
                     <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
-                Log Out</a>
+                Зареєструватися
+            </a>
         </div>
         <div class="open-menu">
             <button type="button" class="open-menu-btn">
@@ -91,31 +92,11 @@
     </header>
 
     <!-- Search -->
-    <div class="search-form-container container" id="search-form-container">
-        <div class="form-container">
-            <form action="" class="form">
-                <input class="form-input" type="text" placeholder="What are you looking for?">
-                <button class="btn form-btn icon-box" type="submit">
-                    <i class="ri-search-line"></i>
-                </button>
-            </form>
-            <span class="form-note">Or press ESC to close.</span>
-        </div>
-        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
-            <i class="ri-close-line"></i>
-        </div>
-    </div>
-
     <section class="blog-post section-header-offset">
         <div class="blog-post-container container">
             <div class="blog-post-data">
-                <h3 class="title blog-post-title">Is VR the future?</h3>
-                <div class="article-data">
-                    <span>Dec 6th 2021</span>
-                    <span class="article-data-spacer"></span>
-                    <span>4 Min read</span>
-                </div>
-                <img src="./assets/images/featured/featured-1.jpg" alt="">
+                <h3 class="title blog-post-title">Спортивні добавки це</h3>
+                <img src="images/image_8.jpg" alt="">
             </div>
 
             <div class="container">
@@ -135,12 +116,12 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
                 </p>
 
-                <div class="author d-grid">
+                <!-- <div class="author">
                     <div class="author-image-box">
-                        <img src="./assets/images/author.jpg" alt="" class="article-image">
+                        <img src="images/wave.jpg" alt="" class="article-image">
                     </div>
                     <div class="author-about">
-                        <h3 class="author-name">John Doe</h3>
+                        <h3 class="author-name">Примітки автора</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quis repellat rerum, possimus cumque dolor repellendus eligendi atque explicabo exercitationem id.</p>
                         <ul class="list social-media">
                             <li class="list-item">
@@ -149,12 +130,9 @@
                             <li class="list-item">
                                 <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
                             </li>
-                            <li class="list-item">
-                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
-                            </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -164,7 +142,15 @@
         <div class="container">
           <div class="footer--wrap">
             <p class="footer__text">
-              <span>© 2023 | All Rights Reserved |</span> Developed
+              <span>© 2023 | Всі права захищено |</span> Розроблено
+              <!-- <svg
+                class="footer__icon"
+                width="14"
+                height="13"
+              >
+                <use href="./src/images/icons.svg#icon-like"></use>
+       
+                </svg> -->
                 <svg xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 
                 width="16"
@@ -172,7 +158,7 @@
                 class="footer__icon">
                     <path fill="none" d="M0 0h24v24H0z"/><path d="M10 6a8 8 0 0 0 11.955 6.956C21.474 18.03 17.2 22 12 22 6.477 22 2 17.523 2 12c0-5.2 3.97-9.474 9.044-9.955A7.963 7.963 0 0 0 10 6zm-6 6a8 8 0 0 0 8 8 8.006 8.006 0 0 0 6.957-4.045c-.316.03-.636.045-.957.045-5.523 0-10-4.477-10-10 0-.321.015-.64.045-.957A8.006 8.006 0 0 0 4 12zm14.164-9.709L19 2.5v1l-.836.209a2 2 0 0 0-1.455 1.455L16.5 6h-1l-.209-.836a2 2 0 0 0-1.455-1.455L13 3.5v-1l.836-.209A2 2 0 0 0 15.29.836L15.5 0h1l.209.836a2 2 0 0 0 1.455 1.455zm5 5L24 7.5v1l-.836.209a2 2 0 0 0-1.455 1.455L21.5 11h-1l-.209-.836a2 2 0 0 0-1.455-1.455L18 8.5v-1l.836-.209a2 2 0 0 0 1.455-1.455L20.5 5h1l.209.836a2 2 0 0 0 1.455 1.455z" fill="#000"/>
                 </svg>
-                by <button class="footer__btn">Levitska Prod.</button>
+                <button class="footer__btn">Levitska Prod.</button>
             </p>
           </div>
         </div>
